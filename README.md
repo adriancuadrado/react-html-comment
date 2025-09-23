@@ -16,14 +16,10 @@ yarn add react-html-comment
 ## Usage
 
 ```jsx
-import React from 'react';
-
 import HTMLComment from 'react-html-comment';
 
-class Example extends React.Component {
-  render() {
-    return <HTMLComment text="this is an html comment" />;
-  }
+export default function Example() {
+  return <HTMLComment text="this is an html comment" />;
 }
 ```
 
